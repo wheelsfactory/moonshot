@@ -1,6 +1,8 @@
 package cn.wheelsfactory;
 
-public class removeNthNode {
+import cn.wheelsfactory.common.ListNode;
+
+public class RemoveNthNodeFromEndOfList {
     public static ListNode removeNthNode(ListNode head, int n) {
 	    ListNode fast = head;
 	    ListNode slow = head;
@@ -22,12 +24,3 @@ public class removeNthNode {
 }
 
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    public ListNode(int x) {
-        val = x;
-    }
-
-}

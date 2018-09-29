@@ -11,6 +11,6 @@ public class TwoSumTest {
         int target = 9;
 
         int[] expected = {0, 1};
-        Assert.assertEquals(expected, TwoSum.twoSum(nums, 9));
+        Assert.assertArrayEquals(expected, TwoSum.twoSum(nums, 9));
     }
 }
