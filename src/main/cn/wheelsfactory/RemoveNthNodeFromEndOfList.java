@@ -1,5 +1,6 @@
 package cn.wheelsfactory;
 
+
 import cn.wheelsfactory.common.ListNode;
 
 public class RemoveNthNodeFromEndOfList {
