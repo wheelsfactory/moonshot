@@ -1,5 +1,7 @@
 package cn.wheelsfactory;
 
+import java.util.HashMap;
+
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> map = new HashMap<>();
